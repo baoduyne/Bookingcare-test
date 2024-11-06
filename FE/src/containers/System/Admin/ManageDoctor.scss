@@ -1,0 +1,281 @@
+.manage-doctor-container {
+    // width        : 100%;
+    // height       : 1000px;
+    // margin-bottom: 100px;
+    width        : 100%;
+    padding      : 0 15%;
+    margin-top   : 2%;
+    margin-bottom: 10%;
+
+    .manage-doctor-content-up {
+        // height        : 80%;
+        // width         : 100%;
+        // padding       : 0 40px;
+        // display       : flex;
+        // flex-direction: column;
+        // gap           : 100px;
+        border        : 1px solid rgba(0, 0, 0, 0.2);
+        width         : 100%;
+        height        : 50%;
+        display       : flex;
+        flex-direction: column;
+        margin-bottom : 100px;
+
+        .doctor-manage-logo {
+            width     : 100%;
+            height    : 3%;
+            margin-top: 37px;
+
+            .logo {
+                width                : 28%;
+                height               : 35px;
+                background-image     : url('../../../assets/logo.png');
+                background-size      : contain;
+                background-repeat    : no-repeat;
+                background-position-x: center;
+                cursor               : pointer;
+                margin-left          : auto;
+                margin-right         : auto;
+            }
+        }
+
+        .horizon-line {
+            width           : 100%;
+            height          : 1px;
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius   : 3px;
+            margin-bottom   : 22px;
+        }
+
+        .title-container {
+            width         : 100%;
+            height        : 5%;
+            display       : flex;
+            flex-direction: column;
+            align-items   : center;
+            margin-top    : 13px;
+            margin-bottom : 32px;
+
+            .doctor-manage-title {
+                height     : 50%;
+                font-size  : 120%;
+                font-weight: 600;
+            }
+
+            .doctor-manage-description {
+                height    : 50%;
+                opacity   : 0.6;
+                margin-top: 10px;
+            }
+        }
+
+        // .manage-doctor-title {
+
+        //     text-align  : center;
+        //     width       : 100%;
+        //     height      : 10%;
+        //     font-weight : 700;
+        //     font-size   : 120%;
+        //     margin-left : auto;
+        //     margin-right: auto;
+        // }
+
+        .content-down {
+            width        : 100%;
+            height       : 17%;
+            padding      : 0px 35px;
+            margin-bottom: 22px;
+
+            .preview-description {
+                // border: 1px solid #d9d9d9;
+                width         : 100%;
+                height        : 100%;
+                display       : flex;
+                flex-direction: row;
+                gap           : 20px;
+                border        : 1px solid rgba(0, 0, 0, 0.2);
+                padding       : 15px 15px;
+
+                .doctor-manage-section1 {
+                    width : 18%;
+                    height: 173px;
+
+                    .avatar {
+                        width            : 100%;
+                        height           : 100%;
+                        background-repeat: no-repeat;
+                        background-size  : cover;
+                        border-radius    : 150px;
+                    }
+
+                }
+
+                .doctor-manage-section2 {
+                    width : 70%;
+                    height: 100%;
+
+                    display       : flex;
+                    flex-direction: column;
+                    gap           : 10px;
+
+                    .name-doctor {
+                        font-weight: 700;
+                        font-size  : 120%;
+                    }
+
+                    .description {
+
+                        display       : flex;
+                        flex-direction: column;
+                        gap           : 10px;
+
+                        .text-description {
+                            opacity  : 0.7;
+                            font-size: 105%;
+                        }
+
+                        .address-description {
+                            display       : flex;
+                            flex-direction: row;
+                            gap           : 5px;
+                            opacity       : 1;
+
+                            i {
+                                font-size: 150%;
+                            }
+
+                            p {}
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        .section1 {
+            width         : 100%;
+            height        : 100%;
+            display       : flex;
+            flex-direction: column;
+            gap           : 40px;
+
+            .content-up {
+                // width         : 50%;
+                // height        : 100%;
+                // display       : flex;
+                // flex-direction: column;
+                // gap           : 30px;
+
+                width         : 100%;
+                height        : 100%;
+                display       : flex;
+                flex-direction: column;
+                gap           : 25px;
+                padding       : 0 35px;
+
+
+
+                .doctor-section-container {
+                    width     : 100%;
+                    height    : 25%;
+                    margin-top: 30px;
+
+                    .section-content {
+                        display        : flex;
+                        flex-direction : row;
+                        width          : 100%;
+                        margin-top     : 15px;
+                        justify-content: center;
+
+                        .content-left {
+                            width : 30%;
+                            height: 100%;
+
+                            font-weight: 600;
+                        }
+
+                        .content-right {
+                            width         : 70%;
+                            height        : 100%;
+                            display       : flex;
+                            flex-direction: column;
+                            gap           : 30px;
+
+                            .content-right-child {
+                                width : 100%;
+                                height: 30%;
+                            }
+                        }
+                    }
+                }
+
+                .form-control {
+                    height: 95px;
+                }
+            }
+
+
+        }
+
+        .section2 {
+            width : 100%;
+            height: 500px;
+
+            .markdown {
+
+                .markdown-btn {
+                    margin-top: 100px;
+                    width     : 70px;
+                    margin-top: 200px;
+
+                }
+            }
+        }
+
+    }
+}
+
+.image-content {
+    display        : flex;
+    flex-direction : row;
+    width          : 100%;
+    height         : 168px;
+    justify-content: left;
+    gap            : 30px;
+
+    .image-group-button {
+        width          : 50%;
+        height         : 100%;
+        display        : flex;
+        flex-direction : column;
+        justify-content: center;
+        gap            : 10px;
+
+        .preview-button {
+            width : 180px;
+            height: 33px;
+        }
+    }
+
+
+    .preview-box {
+        width              : 30%;
+        height             : 100%;
+        border             : 1px solid rgba(0, 0, 0, 0.2);
+        background-repeat  : no-repeat;
+        background-size    : cover;
+        background-position: center;
+        border-radius      : 200px;
+        margin-bottom      : 10px;
+    }
+}
+
+.rc-md-editor .editor-container .sec-md .input {
+    overflow  : auto;
+    margin-top: 0 !important;
+}
+
+.rc-md-editor .editor-container>.section>.section-container {
+    margin-top: 0 !important;
+}
